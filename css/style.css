@@ -1,9 +1,16 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
 .navbar {
   width: auto;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin-bottom: 70px;
+  margin-bottom: 140px;
 }
 
 #avatar,
@@ -33,27 +40,21 @@
   border: 0.1px solid;
 }
 
-.search:focus-within {
-  box-shadow: rgba(213, 222, 222, 0.5);
-  border: rgba(213, 222, 222, 0.5);
-}
-
-.search:hover {
-  box-shadow: rgba(213, 222, 222, 0.5);
-  border: rgba(213, 222, 222, 0.5);
-}
-
 #magnify {
   max-width: 50px;
   margin-right: 1px;
   z-index: -1;
 }
 
-#searchbar {
+#searchbox {
   width: 90%;
   font-size: 18px;
   border: none;
   margin-right: 2px;
+}
+
+.searchbox:focus {
+  outline: none;
 }
 
 .buttons {
@@ -77,10 +78,7 @@ button:hover {
 .footer {
   display: flex;
   justify-content: space-between;
-  bottom: 10px;
-  right: 20px;
-  left: 0px;
-  position: absolute;
+  margin-top: auto;
 }
 
 a {
