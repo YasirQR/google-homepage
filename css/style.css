@@ -78,7 +78,7 @@ button:hover {
 .footer {
   display: flex;
   justify-content: space-between;
-  margin-top: auto;
+  margin: auto 10px 10px 10px;
 }
 
 a {
