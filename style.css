@@ -1,0 +1,13 @@
+body {
+  background: red;
+}
+
+button {
+  font-size: 100px;
+  border: none;
+  border-radius: 10%;
+}
+
+h1 {
+  font-size: 100px;
+}
