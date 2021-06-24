@@ -37,7 +37,7 @@ body {
   justify-content: flex-start;
   width: 600px;
   border-radius: 30px;
-  border: 0.1px solid;
+  border: 0.1px solid silver;
 }
 
 #magnify {
@@ -51,9 +51,6 @@ body {
   font-size: 18px;
   border: none;
   margin-right: 2px;
-}
-
-.searchbox:focus {
   outline: none;
 }
 
